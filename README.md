@@ -1,50 +1,18 @@
-textbasedgame
-introducao = ("Bem-vindo a floresta encantada, você, um corajoso aventureiro, armadilhas traiçoeiras testam sua coragem a cada passo. Prepare-se a Floresta das Sombras guarda segredos que podem levar à glória")
-print (introducao)
-escolha = input("\nQueres ir para a direita ou esquerda? (direita/esquerda): ")
-if escolha == "direita":
-    print("Boa conseguiste passar a entrada da floresta!")
-else:
-    print("\nUma armadilha apanhou-te e vais ter que voltar para tras!")
-    exit()
-umparte = ("Passaste a primeira parte da floresta, tens aqui uma faca que te pode ajudar!")
-print (umparte)
-escolha1 = input("\nQueres ir para a direita ou esquerda? (direita/esquerda: ") 
-if escolha1 == "direita":
-    print("Fizeste uma má escolha e vais ter que voltar para tras!")
-    exit()   
-else:
-    print("\nFizeste uma boa escolha e podes continuar tem cuidado com cada passo que dás!") 
-           
-doisparte = ("\nPassaste as duas primeiras partes da floresta,cuidado com as tuas escolhas alguma delas pode ser traiçõeira.")
-print(doisparte)   
-escolha2= input("\n Agora tu vais ter de escolher entre uma lanterna para te ajudar no caminho ou um remedio caso te aconteça alguma coisa (medicamento/lanterna): ")
 
-if escolha2 == "medicamento":
-    print("\nBoa escolha agora tens um remedio e uma faca na tua mochila caso algum monstro te ataque")
-        
-else:     
-    print("Boa escolha agora tens uma lanterna e uma faca na tua mochila caso algum monstro te ataque ")
+Objetivo Principal: O objetivo do jogo "Floresta Encantada" é guiar um corajoso aventureiro, através de uma floresta cheia de desafios e armadilhas. O jogador deve fazer boas escolhas para avançar, recolher itens úteis, e eventualmente escapar da floresta e de uma caverna.
+Público-Alvo: O jogo é voltado principalmente para:
+Adolescentes e Jovens (12-18 anos): Este público jogos de escolhas, além de se divertir com a exploração de mundos.
+As principais funcionalidades e mecânicas do jogo são: 
+Escolhas Interativas:
+Em "Floresta Encantada".A cada passo, terá que tomar decisões que moldarão sua jornada. Vai optar por ir para a direita ou esquerda? Sua escolha pode levar a recompensas ou levar a armadilhas!
+Coleta de Itens:
+Ao longo do caminho, você encontrará itens como facas, lanternas e remédios. Esses itens não são apenas acessórios; eles são essenciais para sua sobrevivência.
+Interface Simples:
+O jogo apresenta uma interface de texto clara e amigável. As instruções são diretas, permitindo que você se concentre na história e nas escolhas.
 
-tresparte = ("\nPassaste a terceira parte da floresta, cuidado!")    
-print(tresparte)    
-escolha3 = input("\nOuvi dizer que há um monstro aqui, podes escolher entre tentar lutar contra ele e teres comida ou podes ir para a esquerda e tentar passar pelo caminho mais seguro(tentar/es)")
-if escolha3 == "tentar":    
-    print("Tens sorte em ter encontrado um animal pequeno, mesmo assim ele feriu-te não te esqueças que tens um remédio na tua mochila, tenta tirar os alimentos que conseguires e coloca-os na tua mochila.")
-else:
-    print("Boa escolha, tens um caminho seguro e podes continuar, mas não te esqueças que mesmo sendo um caminho seguro podes ter azar!")
 
-escolha4 = input("\nOuvi dizer que há uma caberna por aqui, podes escolher entre entrar ou seguir o teu caminho(entrar/cagão): ")
-if escolha4 == "entrar":
-    print("Boa escolha, vai entrando na caberna com cautela!")
-else:
-    print("Escolha boa mas és um cagão, perdeste uma caixa surpresa e ainda ficaste preso numa armadilha.")
-    exit()
+A estrutura do código pode ser organizada em funções, o que facilita a leitura, manutenção e reutilização do código. A seguir, apresento um exemplo de como isso pode ser feito e explico os benefícios dessa abordagem.
+Em "Floresta Encantada", a interatividade com o jogador é realizada através da função input() , que captura respostas em formato de texto. Aqui está o principal aspecto:
+Validação de Entrada: O código verifica se a resposta do jogador é válida, solicitando que ele tente novamente se a entrada estiver incorreta.
+Ao longo do processo, aprendi a importância de estruturar o código de maneira organizada, o que facilitou a manutenção e a implementação de novas funcões.E pretendo mais pra frente continuar outro projeto com mais funções.
 
-escolha5 = input("\nA caberna tem 2 caixas lá dentro, podes escolher entre a preta ou a vermehla(preta/vermelha): ")
-if escolha5 == "preta":
-    print("Boa que ganda sorte mano encontraste uma espada, um casaco de frio e alguma comida!")
-else:
-    print("Que merda que escolheste, não tens sorte nenhuma e a caixa era uma armadilha,  e ficaste preso")
-    exit()
-escolha6 = input("\nAgora que tens tudo que precisas para sair da caverna, procura bem que provavelmente vais encontrar uma saida secreta")
