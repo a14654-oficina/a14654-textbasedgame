@@ -1,4 +1,4 @@
-<h1> textbasedgame
+textbasedgame
 introducao = ("Bem-vindo a floresta encantada, você, um corajoso aventureiro, armadilhas traiçoeiras testam sua coragem a cada passo. Prepare-se a Floresta das Sombras guarda segredos que podem levar à glória")
 print (introducao)
 escolha = input("\nQueres ir para a direita ou esquerda? (direita/esquerda): ")
