@@ -1,5 +1,8 @@
+<h2>Floresta Assombrada<h2>
 
-Objetivo Principal: O objetivo do jogo "Floresta Encantada" é guiar um corajoso aventureiro, através de uma floresta cheia de desafios e armadilhas. O jogador deve fazer boas escolhas para avançar, recolher itens úteis, e eventualmente escapar da floresta e de uma caverna.
+
+Objetivo Principal:
+O objetivo do jogo "Floresta Encantada" é guiar um corajoso aventureiro, através de uma floresta cheia de desafios e armadilhas. O jogador deve fazer boas escolhas para avançar, recolher itens úteis, e eventualmente escapar da floresta e de uma caverna.
 Público-Alvo: O jogo é voltado principalmente para:
 Adolescentes e Jovens (12-18 anos): Este público jogos de escolhas, além de se divertir com a exploração de mundos.
 As principais funcionalidades e mecânicas do jogo são: 
